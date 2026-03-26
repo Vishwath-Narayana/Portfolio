@@ -2,23 +2,23 @@ import Section from './Section';
 
 const projects = [
   {
-    title: 'Modern E-Commerce Platform',
-    stack: 'React, Node.js, MongoDB, Tailwind CSS',
-    duration: '2023 - Present',
+    title: 'Role-Based File Sharing System',
+    stack: 'MERN Stack, Cloudinary Storage ',
+    duration: '2026 - Present',
     description:
-      'A full-stack e-commerce solution featuring a fully responsive UI, user authentication, a complete product catalog, and a seamless checkout experience with payment integration. Designed with minimalist aesthetics.',
+      'Developed a secure file sharing platform with role-based access control, enabling users to upload, manage, and share files with permission-based restrictions. Implemented authentication, OTP-based login, and cloud storage integration using Firebase. Designed a scalable and user-friendly interface for efficient file management.',
   },
   {
     title: 'Real-Time Chat Application',
     stack: 'MERN, Socket.io, Framer Motion',
-    duration: '2023',
+    duration: '2026',
     description:
       'Developed a real-time messaging app supporting direct messaging and group chats. Implemented smooth animations and a soft gray intuitive user interface for a native-like app experience.',
   },
   {
     title: 'Developer Portfolio',
     stack: 'React, Tailwind CSS, Framer Motion',
-    duration: '2024',
+    duration: '2026',
     description:
       'A sleek, minimalist personal portfolio focused on typography and subtle animations to showcase projects and technical skills effectively.',
   },
