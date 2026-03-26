@@ -1,8 +1,9 @@
 import Section from './Section';
 
 const skills = [
-  'MERN Stack', 'React', 'Node.js', 'MongoDB', 'Express',
-  'TypeScript', 'Tailwind', 'Framer Motion', 'GSAP', 'Three.js', 'Firebase'
+  'React', 'Node.js', 'MongoDB', 'Express',
+  'TypeScript', 'Java', 'Tailwind', 'Framer Motion', 'GSAP', 'Three.js', 'Firebase Storage',
+  'Git', 'GitHub', 'Figma', 'Framer', 'Socket.io', 'UI/UX' 
 ];
 
 export default function Skills() {
