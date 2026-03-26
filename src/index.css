@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f7f7f7;
+    --foreground: #111111;
+    --muted: #777777;
+    --border: #e5e5e5;
+  }
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+/* Remove default selection and outline colors if desired */
+::selection {
+  background-color: var(--muted);
+  color: var(--background);
+}

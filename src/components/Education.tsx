@@ -1,0 +1,37 @@
+import Section from './Section';
+
+const educationList = [
+  {
+    title: 'B.Tech in Computer Science',
+    subtitle: 'University Name, 2021 - 2025',
+    description: 'Focusing on software engineering, data structures, and web technologies.',
+  },
+  {
+    title: 'Intermediate (11th & 12th)',
+    subtitle: 'College Name, 2019 - 2021',
+    description: 'Core focus on Mathematics, Physics, and Chemistry.',
+  },
+  {
+    title: 'High School',
+    subtitle: 'School Name, graduated 2019',
+    description: 'General education with a strong foundation in science and math.',
+  },
+];
+
+export default function Education() {
+  return (
+    <Section title="Education" delay={0.3}>
+      <div className="flex flex-col gap-6">
+        {educationList.map((item, index) => (
+          <div key={index}>
+            <h3 className="font-semibold text-foreground">{item.title}</h3>
+            <p className="text-sm text-muted">{item.subtitle}</p>
+            {item.description && (
+              <p className="text-muted mt-2">{item.description}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
