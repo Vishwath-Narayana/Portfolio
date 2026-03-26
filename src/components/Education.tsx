@@ -3,17 +3,22 @@ import Section from './Section';
 const educationList = [
   {
     title: 'B.Tech in Computer Science',
-    subtitle: 'University Name, 2021 - 2025',
+    subtitle: 'Kakatiya Institute of Technology and Science, 2023 - present',
     description: 'Focusing on software engineering, data structures, and web technologies.',
   },
   {
-    title: 'Intermediate (11th & 12th)',
-    subtitle: 'College Name, 2019 - 2021',
+    title: 'Intermediate Education',
+    subtitle: (
+      <>
+        Narayana Junior College (11th) &middot; 2021 - 2022<br />
+        SR Edu Center (12th) &middot; 2022 - 2023
+      </>
+    ),
     description: 'Core focus on Mathematics, Physics, and Chemistry.',
   },
   {
     title: 'High School',
-    subtitle: 'School Name, graduated 2019',
+    subtitle: 'Tejaswi High School, graduated 2021',
     description: 'General education with a strong foundation in science and math.',
   },
 ];

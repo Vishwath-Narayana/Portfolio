@@ -1,5 +1,4 @@
 import Section from './Section';
-import { Database, MonitorSmartphone, Code2, Server } from 'lucide-react';
 
 const skills = [
   'MERN Stack', 'React', 'Node.js', 'MongoDB', 'Express',
@@ -18,13 +17,6 @@ export default function Skills() {
             {skill}
           </span>
         ))}
-      </div>
-      
-      <div className="flex justify-center items-center gap-8 text-muted">
-        <Code2 size={24} />
-        <MonitorSmartphone size={24} />
-        <Server size={24} />
-        <Database size={24} />
       </div>
     </Section>
   );
