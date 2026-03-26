@@ -1,10 +1,9 @@
 import Section from './Section';
 
 const contacts = [
-  { label: 'Email', value: 'hello@example.com', link: 'mailto:hello@example.com' },
-  { label: 'LinkedIn', value: '/in/vishwath', link: 'https://linkedin.com' },
-  { label: 'GitHub', value: '@vishwath', link: 'https://github.com' },
-  { label: 'X/Twitter', value: '@vishwath', link: 'https://twitter.com' },
+  { label: 'Email', value: 'vishwathnarayanathm19@gmail.com', link: 'mailto:[vishwathnarayanathm19@gmail.com]' },
+  { label: 'LinkedIn', value: 'https://www.linkedin.com/in/vishwath-t-3563702a0/', link: 'https://www.linkedin.com/in/vishwath-t-3563702a0/' },
+  { label: 'GitHub', value: 'https://github.com/Vishwath-Narayana', link: 'https://github.com/Vishwath-Narayana' },
 ];
 
 export default function Contact() {
