@@ -7,7 +7,7 @@ export default function Hero() {
         <img
           src={heroImage}
           alt="Profile"
-          className="w-full h-full object-cover scale-[2] origin-[50%_65%]"
+          className="w-full h-full object-cover object-top scale-[1.5] origin-[50%_80%]"
         />
       </div>
       <h1 className="text-3xl font-semibold text-center mt-4">Vishwath Narayana</h1>
