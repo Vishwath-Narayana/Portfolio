@@ -10,7 +10,7 @@ export default function Hero() {
           className="w-full h-full object-cover object-top scale-[1.5] origin-[50%_80%]"
         />
       </div>
-      <h1 className="text-3xl font-semibold text-center mt-4">Vishwath Narayana</h1>
+      <h1 className="text-3xl font-semibold text-center mt-4">Vishwath T</h1>
       <p className="text-muted text-center mt-1">Full Stack Developer | Student</p>
     </section>
   );
