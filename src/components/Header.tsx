@@ -24,7 +24,7 @@ export default function Header() {
     <header className="flex justify-between items-center text-sm text-muted mb-10 pb-10 border-b border-border">
       <div className="flex items-center gap-1.5">
         <MapPin size={16} />
-        <span>Hyderabad, India</span>
+        <span>Warangal, Telangana</span>
       </div>
       <div className="flex items-center gap-1.5 font-mono">
         <Clock size={16} />

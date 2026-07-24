@@ -4,9 +4,7 @@ export default function About() {
   return (
     <Section title="About" delay={0.1}>
       <p>
-        I'm a full-stack developer and student with a deep passion for building scalable web applications 
-        using the MERN stack. I focus on creating clean, intuitive user interfaces enhanced by smooth, 
-        engaging animations. Always eager to learn new technologies and apply them to solve real-world problems.
+        I'm an aspiring Data Engineer with a strong foundation in Python, SQL, cloud computing, and data engineering concepts. Experienced in building cloud-based ETL pipelines, scalable backend applications, and real-time platforms using AWS, PySpark, and Apache Airflow. Passionate about designing reliable data solutions and leveraging cloud technologies to solve real-world problems.
       </p>
     </Section>
   );

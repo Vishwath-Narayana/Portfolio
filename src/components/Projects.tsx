@@ -2,25 +2,25 @@ import Section from './Section';
 
 const projects = [
   {
-    title: 'Role-Based File Sharing System',
-    stack: 'MERN Stack, Cloudinary Storage ',
-    duration: '2026 - Present',
+    title: 'AWS Data Lake ETL Pipeline for NYC Taxi Analytics',
+    stack: 'AWS S3, AWS Glue, PySpark, Athena, Step Functions, EventBridge',
+    duration: '2024 - 2025',
     description:
-      'Developed a secure file sharing platform with role-based access control, enabling users to upload, manage, and share files with permission-based restrictions. Implemented authentication, OTP-based login, and cloud storage integration using Firebase. Designed a scalable and user-friendly interface for efficient file management.',
+      'Designed and developed an end-to-end AWS data lake pipeline with Raw → Curated → Aggregated architecture. Built ETL workflows using AWS Glue and PySpark to cleanse, validate, and transform datasets. Configured Glue Crawlers, Data Catalog, and Amazon Athena for automated metadata management and SQL-based querying. Implemented incremental processing using Glue Job Bookmarks and orchestrated workflows with AWS Step Functions.',
+  },
+  {
+    title: 'FileDrive — Cloud SaaS Collaboration Platform',
+    stack: 'React 19, Vite, Node.js, Express 5, MongoDB, Socket.io, Cloudinary, Supabase, JWT, Tailwind CSS',
+    duration: '2024 - 2025',
+    description:
+      'Engineered a multi-workspace cloud file management platform with team-based access control and real-time activity tracking via WebSocket. Implemented RBAC authorization (Admin/Editor/Viewer) using JWT and bcryptjs. Built scalable REST APIs for workspace management and file operations. Integrated Cloudinary and Supabase for cloud storage; designed responsive dark-themed UI with React 19 and Socket.io for real-time updates.',
   },
   {
     title: 'Real-Time Chat Application',
-    stack: 'MERN, Socket.io, Framer Motion',
-    duration: '2026',
+    stack: 'MERN, Socket.io, JWT, Tailwind CSS, Framer Motion',
+    duration: '2024',
     description:
-      'Developed a real-time messaging app supporting direct messaging and group chats. Implemented smooth animations and a soft gray intuitive user interface for a native-like app experience.',
-  },
-  {
-    title: 'Developer Portfolio',
-    stack: 'React, Tailwind CSS, Framer Motion',
-    duration: '2026',
-    description:
-      'A sleek, minimalist personal portfolio focused on typography and subtle animations to showcase projects and technical skills effectively.',
+      'Engineered scalable real-time messaging platform supporting 1:1 and group chats with low-latency synchronization via WebSocket. Implemented JWT-based authentication, online/offline presence indicators, typing status, and real-time notifications. Optimized database architecture and backend services for concurrent loads; built animated, responsive UI for seamless cross-device experience.',
   },
 ];
 

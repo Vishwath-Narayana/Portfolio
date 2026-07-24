@@ -22,33 +22,33 @@ const certifications = [
     link: '#'
   },
   {
-    title: 'Implementing Cloud Load Balancing for Compute Engine',
+    title: 'Google Cloud: Implementing Cloud Load Balancing',
     subtitle: 'Google &middot; 2025',
     description: 'Configured and managed load balancing solutions to distribute traffic efficiently across compute resources.',
     link: '#'
   },
   {
-    title: 'Set Up an App Dev Environment on Google Cloud',
-    subtitle: 'Google &middot; 2025',
-    description: 'Built and configured development environments on GCP, including deployment workflows and service integration.',
-    link: '#'
-  },
-  {
-    title: 'Build a Secure Google Cloud Network',
+    title: 'Google Cloud: Secure Network Design',
     subtitle: 'Google &middot; 2025',
     description: 'Designed secure cloud networks using firewall rules, IAM policies, and private access configurations.',
     link: '#'
   },
   {
-    title: 'Prepare Data for ML APIs on Google Cloud',
+    title: 'Google Cloud: Data Preparation for ML APIs',
     subtitle: 'Google &middot; 2025',
     description: 'Processed and structured datasets for machine learning APIs, focusing on data pipelines and preprocessing.',
     link: '#'
   },
   {
-    title: 'Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud',
+    title: 'Google Cloud Computing Foundations: Data, ML & AI in Google Cloud',
     subtitle: 'Google &middot; 2025',
     description: 'Understood foundational concepts of data processing, machine learning, and AI services within GCP.',
+    link: '#'
+  },
+  {
+    title: 'Google Cloud: Additional Certifications',
+    subtitle: 'Google &middot; 2025',
+    description: 'Completed specialized training in cloud infrastructure, networking, and data engineering practices.',
     link: '#'
   }
 ];
