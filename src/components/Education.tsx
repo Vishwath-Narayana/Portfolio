@@ -2,24 +2,9 @@ import Section from './Section';
 
 const educationList = [
   {
-    title: 'B.Tech in Computer Science',
-    subtitle: 'Kakatiya Institute of Technology and Science, 2023 - present',
-    description: 'Focusing on software engineering, data structures, and web technologies.',
-  },
-  {
-    title: 'Intermediate Education',
-    subtitle: (
-      <>
-        Narayana Junior College (11th) &middot; 2021 - 2022<br />
-        SR Edu Center (12th) &middot; 2022 - 2023
-      </>
-    ),
-    description: 'Core focus on Mathematics, Physics, and Chemistry.',
-  },
-  {
-    title: 'High School',
-    subtitle: 'Tejaswi High School, graduated 2021',
-    description: 'General education with a strong foundation in science and math.',
+    title: 'B.Tech in Computer Science and Engineering',
+    subtitle: 'Kakatiya Institute of Technology & Science (KITSW), Warangal &middot; 2023 - 2027',
+    description: 'CGPA: 8.35. Focus on data engineering, cloud computing, and full-stack development.',
   },
 ];
 
